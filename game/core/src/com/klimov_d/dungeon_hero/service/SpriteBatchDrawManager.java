@@ -68,6 +68,14 @@ public class SpriteBatchDrawManager implements DrawManager {
             builder.append('\n');
             builder.append(messages.get(i));
         }
+        builder.append("\n");
+        builder.append("w - шаг вверх\n");
+        builder.append("a - шаг влево\n");
+        builder.append("s - шаг вниз\n");
+        builder.append("d - шаг вправо\n");
+        builder.append("e - действие\n");
+        builder.append("space - пропуск хода\n");
+        builder.append("escape - завершить игру\n");
         return builder.toString();
     }
 
